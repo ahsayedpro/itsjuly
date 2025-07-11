@@ -58,3 +58,29 @@ nav img{
     margin-bottom: 26px;
     color: #252432;
 }
+
+/* Action Container CSS Stats Here */
+.action-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.action-left h3{
+    font-size: 42px;
+    font-weight: 700;
+    color: 252432;
+    margin-bottom: 20px;
+}
+.action-left p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #25243283;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.action-right img{
+    border-radius: 30px;
+}
