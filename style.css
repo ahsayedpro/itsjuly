@@ -29,4 +29,32 @@ button:hover{
     transition: 1s;
 }
 
+/* Header Section CSS Stats Here */
+header{
+    background-image: url('./Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
+nav{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    width: 120px;
+}
+.hero-container{
+    text-align: center;
+    padding: 120px;
+}
+.hero-container h1{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 26px;
+    color: #252432;
+}
