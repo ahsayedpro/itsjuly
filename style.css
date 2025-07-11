@@ -63,7 +63,7 @@ nav img{
 .action-container{
     max-width: 1170px;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 180px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -178,4 +178,34 @@ nav img{
     color: #B3B3B3;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Focus Container CSS Stats Here */
+.focus-container{
+    background-color: #fff;
+}
+.focus-row{
+    margin: 0 auto;
+    padding: 60px 0;
+    max-width: 1170px;
+    text-align: center;
+}
+.focus-container h1, .focus-container h3{
+    margin: 20px 0;
+}
+.focus-container h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.focus-container h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #757575;
+}
+.focus-container img{
+    width: 100%;
+    border-radius: 48px;
+}
+.focus-container button{
+    margin-bottom: 20px;
 }
