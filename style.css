@@ -121,3 +121,61 @@ nav img{
     margin-block: 10px;
     font-family: 'inter', sans-serif;
 }
+
+/* FeedBack Container CSS Stats Here */
+.feedback-container{
+    margin: 140px auto;
+    max-width: 1170px;
+}
+.feedback-container h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 60px 0;
+}
+.clients{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    gap: 20px;
+}
+.client{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.client h2{
+    color: #252432;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0;
+    font-weight: 700;
+}
+.client p{
+    font-size: 16px;
+    color: #1E1E1E;
+    margin: 10px 0;
+    line-height: 26px;
+    font-weight: 500;
+}
+.client-profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 25px 0;
+}
+.client-profile img{
+    border-radius: 50%;
+    width: 70px;
+}
+.client-profile h3{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 500;
+}
+.client-profile h4{
+    color: #B3B3B3;
+    font-size: 16px;
+    font-weight: 400;
+}
