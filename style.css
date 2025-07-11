@@ -209,3 +209,53 @@ nav img{
 .focus-container button{
     margin-bottom: 20px;
 }
+
+/* Contact Container CSS Stats Here */
+.contact-container{
+    margin: 80px auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-left{
+    width: 50%;
+}
+.contact-left h1{
+    font-size: 97px;
+    font-weight: 700;
+}
+.contact-right{
+    width: 50%;
+}
+.contact-right label{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'inter', sans-serif;
+}
+.contact-right input{
+    width: 93%;
+    outline: none;
+    border: none;
+    padding: 32px 20px;
+    font-size: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-family: 'inter', sans-serif;
+}
+.contact-right textarea{
+    width: 93%;
+    height: 135px;
+    outline: none;
+    border: none;
+    padding: 32px 20px;
+    font-size: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-family: 'inter', sans-serif;
+}
+.contact-right button{
+    width: 100%;
+    padding: 32px 0;
+    border-radius: 10px;
+}
