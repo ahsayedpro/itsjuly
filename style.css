@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'raleway';
+}
+body{
+    background-color: #D6DDED;
+}
+button{
+    background-color: green;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    scale: 1;
+    transition: 1s;
+}
+
+
